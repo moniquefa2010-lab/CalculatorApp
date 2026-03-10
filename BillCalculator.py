@@ -1,0 +1,5 @@
+Bill = input("Please enter Bill  Amount : ")
+Percentage = input("Please enter Tip Percentage .10, .15, or .20: ")
+Tax = float(Bill) * float(Percentage)
+TotalConversion = float(Tax) + float(Bill)
+print(f"The total bill is {TotalConversion}")
